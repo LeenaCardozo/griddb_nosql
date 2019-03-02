@@ -1,0 +1,74 @@
+@import url(https://malcat-gen.appspot.com/series?preset=dataimagelinkbefore);
+
+@import url(https://valeriolyndon.github.io/MAL-Public-List-Designs/Clarity%20Theme/Theme%20-%20Compressed.css);
+
+@\import "https://malscraper.azurewebsites.net/covers/auto/presets/dataimagelinkbefore";
+
+@\import "https://malscraper.azurewebsites.net/covers/auto/presets/dataimagelinkbefore";
+@\import "https://valeriolyndon.github.io/MAL-Public-List-Designs/Clarity%20Theme/Mod%20-%20Hover%20Image%20Compressed.css";
+
+@\import "https://valeriolyndon.github.io/MAL-Public-List-Designs/Clarity%20Theme/Mod%20-%20Dark%20Mode%20Compressed.css";
+
+.status-menu:after {
+	background-image: url(https://myanimelist.cdn-dena.com/images/userimages/3985269.jpg
+);
+}
+
+#cover-image-container:after {
+	content: "桜Suzunne";
+}
+
+@import url(https://valeriolyndon.github.io/MAL-Public-List-Designs/Clarity%20Theme/Mod%20-%20Hover%20Image%20Compressed.css);
+
+
+.cover-block {
+	background-image: url(https://i.imgur.com/f5CC4hW.png) !important;
+}
+
+#cover-image-container {
+	background-image: url(https://i.imgur.com/2SNUHFy.png) !important;
+}
+
+/* =================
+CHARACTER RENDERS
+updated: 19-02-17 */
+
+.cover-block { z-index: 25; }
+.header { z-index: 36; }
+
+footer:before, footer:after {
+	content: "";
+	position: fixed;
+	top: 0;
+	z-index: -1;
+	
+	width: calc(50% - 538px);
+	min-width: 262px;
+	height: 100%;
+	background: transparent no-repeat center bottom / contain scroll;
+}
+
+/* Left Render */
+footer:before {
+	right: calc(100% - (50% - 538px));
+	
+	background-color: transparent no-repeat center;
+	background-image: url(https://i.imgur.com/cllCqCG.png);
+	background-position: left bottom;
+}
+
+/* Right Render */
+footer:after {
+	left: calc(100% - (50% - 538px));
+	
+	background-color: transparent no-repeat center;
+	background-image: url();
+	background-position: right bottom;
+}
+
+body {
+	--background: url(https://i.imgur.com/0Piz45s.png);
+	background-image: 
+		linear-gradient(rgba(127,63,191,0.03), rgba(127,63,191,0.03)), 
+		var(--background) !important;
+}
